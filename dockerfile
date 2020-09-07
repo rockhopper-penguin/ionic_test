@@ -1,4 +1,4 @@
-FROM 12.18.3-buster
+FROM node:12.18.3-buster
 
 RUN npm install -g @ionic/cli
 
