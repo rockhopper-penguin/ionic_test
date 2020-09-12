@@ -4,7 +4,9 @@ services:
   node:
     build: .
     ports:
+      - 4200:4200
       - 8100:8100
+      - 8200:8200
     volumes:
       - .://src/ionic
     tty: true
